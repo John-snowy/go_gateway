@@ -1,0 +1,334 @@
+2021/01/08 20:49:52 ------------------------------------------------------------------------
+2021/01/08 20:49:52 [INFO]  config=./conf/dev/
+2021/01/08 20:49:52 [INFO]  start loading resources.
+2021/01/08 20:49:52 [INFO]  success loading resources.
+2021/01/08 20:49:52 ------------------------------------------------------------------------
+2021/01/08 20:49:52 ------------------------------------------------------------------------
+2021/01/08 20:49:52 [INFO]  config=./conf/prod/
+2021/01/08 20:49:52 [INFO]  start loading resources.
+2021/01/08 20:50:12 [INFO]  success loading resources.
+2021/01/08 20:50:12 ------------------------------------------------------------------------
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+watchConf
+[GIN-debug] GET    /ping                     --> github.com/go_gateway/http_proxy_router.InitRouter.func1 (3 handlers)
+WeightRoundRobinBalance get conf: [127.0.0.1:50055,50]
+[GIN-debug] POST   /oauth/tokens             --> github.com/go_gateway/controller.(*OAuthController).Tokens-fm (4 handlers)
+2021/01/08 20:50:12  [INFO] https_proxy_run::4433
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> github.com/go_gateway/http_proxy_router.InitRouter.func1 (3 handlers)
+[GIN-debug] POST   /oauth/tokens             --> github.com/go_gateway/controller.(*OAuthController).Tokens-fm (4 handlers)
+watchConf
+2021/01/08 20:50:12  [INFO] http_proxy_run::8080
+WeightRoundRobinBalance get conf: [127.0.2.1:80,50 127.0.3.1:80,40]
+2021/01/08 20:50:12 [INFO] tcp_proxy_run 8020
+2021/01/08 20:50:12 [INFO] tcp_proxy_run 8720
+2021/01/08 20:50:12 [INFO] tcp_proxy_run 8011
+watchConf
+Update get conf: [127.0.0.1:2003,51]
+2021/01/08 20:50:12 [INFO] grpc_proxy_run :8012
+2021/01/08 20:50:12 [INFO] grpc_proxy_run :8790
+watchConf
+WeightRoundRobinBalance get conf: [127.0.0.1:6379,50]
+watchConf
+2021/01/08 20:50:12 [INFO] grpc_proxy_run :8712
+WeightRoundRobinBalance get conf: [127.0.0.2:80,70 127.0.0.2:81,80]
+watchConf
+Update get conf: [127.0.0.1:8901,50]
+UpdateConf []
+Update get conf: []
+UpdateConf []
+Update get conf: []
+UpdateConf []
+WeightRoundRobinBalance get conf: []
+UpdateConf [127.0.0.2:80]
+WeightRoundRobinBalance get conf: [127.0.0.2:80,70]
+2021/01/08 20:56:13 [INFO] tcp_proxy_stop :8011 stopped
+2021/01/08 20:56:13 [INFO] tcp_proxy_stop :8020 stopped
+2021/01/08 20:56:13 [INFO] tcp_proxy_stop :8720 stopped
+2021/01/08 20:56:13 [INFO] grpc_proxy_stop :8012 stopped
+2021/01/08 20:56:13 [INFO] grpc_proxy_stop :8790 stopped
+2021/01/08 20:56:13 [INFO] grpc_proxy_stop :8712 stopped
+2021/01/08 20:56:13  [INFO] http_proxy :8080 stopped
+2021/01/08 20:56:13  [INFO] https_proxy :4433 stopped
+2021/01/08 20:56:13 ------------------------------------------------------------------------
+2021/01/08 20:56:13 [INFO]  start destroy resources.
+2021/01/08 20:56:13 [INFO]  success destroy resources.
+2021/01/08 20:56:13 ------------------------------------------------------------------------
+2021/01/08 20:56:13 [INFO]  config=./conf/dev/
+2021/01/08 20:56:13 [INFO]  start loading resources.
+2021/01/08 20:56:13 [INFO]  success loading resources.
+2021/01/08 20:56:13 ------------------------------------------------------------------------
+2021/01/08 20:56:13 ------------------------------------------------------------------------
+2021/01/08 20:56:13 [INFO]  config=./conf/prod/
+2021/01/08 20:56:13 [INFO]  start loading resources.
+2021/01/08 20:56:13 [INFO]  success loading resources.
+2021/01/08 20:56:13 ------------------------------------------------------------------------
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2021/01/08 20:56:13 [INFO] tcp_proxy_run 8020
+2021/01/08 20:56:13 [INFO] tcp_proxy_run 8720
+2021/01/08 20:56:13 [INFO] tcp_proxy_run 8011
+watchConf
+WeightRoundRobinBalance get conf: [127.0.0.1:6379,50]
+watchConf
+WeightRoundRobinBalance get conf: [127.0.0.1:50055,50]
+2021/01/08 20:56:13 [INFO] grpc_proxy_run :8012
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> github.com/go_gateway/http_proxy_router.InitRouter.func1 (3 handlers)
+[GIN-debug] POST   /oauth/tokens             --> github.com/go_gateway/controller.(*OAuthController).Tokens-fm (4 handlers)
+watchConf
+2021/01/08 20:56:13  [INFO] http_proxy_run::8080
+WeightRoundRobinBalance get conf: [127.0.2.1:80,50 127.0.3.1:80,40]
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> github.com/go_gateway/http_proxy_router.InitRouter.func1 (3 handlers)
+[GIN-debug] POST   /oauth/tokens             --> github.com/go_gateway/controller.(*OAuthController).Tokens-fm (4 handlers)
+2021/01/08 20:56:13 [INFO] grpc_proxy_run :8790
+2021/01/08 20:56:13  [INFO] https_proxy_run::4433
+watchConf
+Update get conf: [127.0.0.1:2003,51]
+2021/01/08 20:56:13 [INFO] grpc_proxy_run :8712
+watchConf
+Update get conf: [127.0.0.1:8901,50]
+watchConf
+WeightRoundRobinBalance get conf: [127.0.0.2:80,70 127.0.0.2:81,80]
+UpdateConf []
+Update get conf: []
+UpdateConf []
+WeightRoundRobinBalance get conf: []
+UpdateConf []
+Update get conf: []
+UpdateConf [127.0.0.2:80]
+WeightRoundRobinBalance get conf: [127.0.0.2:80,70]
+2021/01/08 20:57:06 [INFO] tcp_proxy_stop :8011 stopped
+2021/01/08 20:57:06 [INFO] tcp_proxy_stop :8720 stopped
+2021/01/08 20:57:06 [INFO] tcp_proxy_stop :8020 stopped
+2021/01/08 20:57:06 [INFO] grpc_proxy_stop :8012 stopped
+2021/01/08 20:57:06 [INFO] grpc_proxy_stop :8790 stopped
+2021/01/08 20:57:06 [INFO] grpc_proxy_stop :8712 stopped
+2021/01/08 20:57:06  [INFO] http_proxy :8080 stopped
+2021/01/08 20:57:06  [INFO] https_proxy :4433 stopped
+2021/01/08 20:57:06 ------------------------------------------------------------------------
+2021/01/08 20:57:06 [INFO]  start destroy resources.
+2021/01/08 20:57:06 [INFO]  success destroy resources.
+2021/01/08 20:57:06 ------------------------------------------------------------------------
+2021/01/08 20:57:06 [INFO]  config=./conf/dev/
+2021/01/08 20:57:06 [INFO]  start loading resources.
+2021/01/08 20:57:06 [INFO]  success loading resources.
+2021/01/08 20:57:06 ------------------------------------------------------------------------
+2021/01/08 20:57:06 ------------------------------------------------------------------------
+2021/01/08 20:57:06 [INFO]  config=./conf/prod/
+2021/01/08 20:57:06 [INFO]  start loading resources.
+2021/01/08 20:57:06 [INFO]  success loading resources.
+2021/01/08 20:57:06 ------------------------------------------------------------------------
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> github.com/go_gateway/http_proxy_router.InitRouter.func1 (3 handlers)
+[GIN-debug] POST   /oauth/tokens             --> github.com/go_gateway/controller.(*OAuthController).Tokens-fm (4 handlers)
+2021/01/08 20:57:06  [INFO] https_proxy_run::4433
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> github.com/go_gateway/http_proxy_router.InitRouter.func1 (3 handlers)
+[GIN-debug] POST   /oauth/tokens             --> github.com/go_gateway/controller.(*OAuthController).Tokens-fm (4 handlers)
+2021/01/08 20:57:06  [INFO] http_proxy_run::8080
+watchConf
+WeightRoundRobinBalance get conf: [127.0.0.1:50055,50]
+watchConf
+Update get conf: [127.0.0.1:2003,51]
+2021/01/08 20:57:06 [INFO] tcp_proxy_run 8020
+2021/01/08 20:57:06 [INFO] grpc_proxy_run :8012
+2021/01/08 20:57:06 [INFO] grpc_proxy_run :8712
+watchConf
+WeightRoundRobinBalance get conf: [127.0.2.1:80,50 127.0.3.1:80,40]
+2021/01/08 20:57:06 [INFO] tcp_proxy_run 8720
+2021/01/08 20:57:06 [INFO] tcp_proxy_run 8011
+watchConf
+WeightRoundRobinBalance get conf: [127.0.0.1:6379,50]
+watchConf
+2021/01/08 20:57:06 [INFO] grpc_proxy_run :8790
+WeightRoundRobinBalance get conf: [127.0.0.2:80,70 127.0.0.2:81,80]
+watchConf
+Update get conf: [127.0.0.1:8901,50]
+UpdateConf []
+Update get conf: []
+UpdateConf []
+WeightRoundRobinBalance get conf: []
+UpdateConf []
+Update get conf: []
+UpdateConf [127.0.0.2:80]
+WeightRoundRobinBalance get conf: [127.0.0.2:80,70]
+2021/01/08 20:57:45 [INFO] tcp_proxy_stop :8011 stopped
+2021/01/08 20:57:45 [INFO] tcp_proxy_stop :8020 stopped
+2021/01/08 20:57:45 [INFO] tcp_proxy_stop :8720 stopped
+2021/01/08 20:57:45 [INFO] grpc_proxy_stop :8012 stopped
+2021/01/08 20:57:45 [INFO] grpc_proxy_stop :8712 stopped
+2021/01/08 20:57:45 [INFO] grpc_proxy_stop :8790 stopped
+2021/01/08 20:57:45  [INFO] http_proxy :8080 stopped
+2021/01/08 20:57:45  [INFO] https_proxy :4433 stopped
+2021/01/08 20:57:45 ------------------------------------------------------------------------
+2021/01/08 20:57:45 [INFO]  start destroy resources.
+2021/01/08 20:57:45 [INFO]  success destroy resources.
+2021/01/08 20:57:45 ------------------------------------------------------------------------
+2021/01/08 20:57:45 [INFO]  config=./conf/dev/
+2021/01/08 20:57:45 [INFO]  start loading resources.
+2021/01/08 20:57:45 [INFO]  success loading resources.
+2021/01/08 20:57:45 ------------------------------------------------------------------------
+2021/01/08 20:57:45 ------------------------------------------------------------------------
+2021/01/08 20:57:45 [INFO]  config=./conf/prod/
+2021/01/08 20:57:45 [INFO]  start loading resources.
+2021/01/08 20:57:45 [INFO]  success loading resources.
+2021/01/08 20:57:45 ------------------------------------------------------------------------
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2021/01/08 20:57:46 [INFO] tcp_proxy_run 8020
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> github.com/go_gateway/http_proxy_router.InitRouter.func1 (3 handlers)
+[GIN-debug] POST   /oauth/tokens             --> github.com/go_gateway/controller.(*OAuthController).Tokens-fm (4 handlers)
+2021/01/08 20:57:46 [INFO] tcp_proxy_run 8720
+2021/01/08 20:57:46 [INFO] tcp_proxy_run 8011
+watchConf
+WeightRoundRobinBalance get conf: [127.0.0.1:6379,50]
+watchConf
+WeightRoundRobinBalance get conf: [127.0.0.2:80,70 127.0.0.2:81,80]
+2021/01/08 20:57:46  [INFO] http_proxy_run::8080
+watchConf
+Update get conf: [127.0.0.1:8901,50]
+watchConf
+watchConf
+watchConf
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+WeightRoundRobinBalance get conf: [127.0.2.1:80,50 127.0.3.1:80,40]
+Update get conf: [127.0.0.1:2003,51]
+[GIN-debug] GET    /ping                     --> github.com/go_gateway/http_proxy_router.InitRouter.func1 (3 handlers)
+WeightRoundRobinBalance get conf: [127.0.0.1:50055,50]
+[GIN-debug] POST   /oauth/tokens             --> github.com/go_gateway/controller.(*OAuthController).Tokens-fm (4 handlers)
+2021/01/08 20:57:46  [INFO] https_proxy_run::4433
+2021/01/08 20:57:46 [INFO] grpc_proxy_run :8712
+2021/01/08 20:57:46 [INFO] grpc_proxy_run :8790
+2021/01/08 20:57:46 [INFO] grpc_proxy_run :8012
+UpdateConf []
+Update get conf: []
+UpdateConf []
+Update get conf: []
+UpdateConf []
+WeightRoundRobinBalance get conf: []
+UpdateConf [127.0.0.2:80]
+WeightRoundRobinBalance get conf: [127.0.0.2:80,70]
+2021/01/08 20:58:07 [INFO] tcp_proxy_stop :8011 stopped
+2021/01/08 20:58:07 [INFO] tcp_proxy_stop :8020 stopped
+2021/01/08 20:58:07 [INFO] tcp_proxy_stop :8720 stopped
+2021/01/08 20:58:07 [INFO] grpc_proxy_stop :8712 stopped
+2021/01/08 20:58:07 [INFO] grpc_proxy_stop :8790 stopped
+2021/01/08 20:58:07 [INFO] grpc_proxy_stop :8012 stopped
+2021/01/08 20:58:07  [INFO] http_proxy :8080 stopped
+2021/01/08 20:58:07  [INFO] https_proxy :4433 stopped
+2021/01/08 20:58:07 ------------------------------------------------------------------------
+2021/01/08 20:58:07 [INFO]  start destroy resources.
+2021/01/08 20:58:07 [INFO]  success destroy resources.
+2021/01/08 20:58:07 ------------------------------------------------------------------------
+2021/01/08 20:58:07 [INFO]  config=./conf/dev/
+2021/01/08 20:58:07 [INFO]  start loading resources.
+2021/01/08 20:58:07 [INFO]  success loading resources.
+2021/01/08 20:58:07 ------------------------------------------------------------------------
+2021/01/08 20:58:07 ------------------------------------------------------------------------
+2021/01/08 20:58:07 [INFO]  config=./conf/prod/
+2021/01/08 20:58:07 [INFO]  start loading resources.
+2021/01/08 20:58:07 [INFO]  success loading resources.
+2021/01/08 20:58:07 ------------------------------------------------------------------------
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> github.com/go_gateway/http_proxy_router.InitRouter.func1 (3 handlers)
+[GIN-debug] POST   /oauth/tokens             --> github.com/go_gateway/controller.(*OAuthController).Tokens-fm (4 handlers)
+2021/01/08 20:58:07  [INFO] http_proxy_run::8080
+2021/01/08 20:58:07 [INFO] tcp_proxy_run 8020
+2021/01/08 20:58:07 [INFO] tcp_proxy_run 8720
+2021/01/08 20:58:07 [INFO] tcp_proxy_run 8011
+watchConf
+watchConf
+WeightRoundRobinBalance get conf: [127.0.0.2:80,70 127.0.0.2:81,80]
+WeightRoundRobinBalance get conf: [127.0.0.1:6379,50]
+watchConf
+WeightRoundRobinBalance get conf: [127.0.0.1:50055,50]
+2021/01/08 20:58:07 [INFO] grpc_proxy_run :8012
+watchConf
+Update get conf: [127.0.0.1:2003,51]
+watchConf
+2021/01/08 20:58:07 [INFO] grpc_proxy_run :8712
+watchConf
+WeightRoundRobinBalance get conf: [127.0.3.1:80,40 127.0.2.1:80,50]
+Update get conf: [127.0.0.1:8901,50]
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> github.com/go_gateway/http_proxy_router.InitRouter.func1 (3 handlers)
+[GIN-debug] POST   /oauth/tokens             --> github.com/go_gateway/controller.(*OAuthController).Tokens-fm (4 handlers)
+2021/01/08 20:58:07 [INFO] grpc_proxy_run :8790
+2021/01/08 20:58:07  [INFO] https_proxy_run::4433
+UpdateConf []
+Update get conf: []
+UpdateConf []
+WeightRoundRobinBalance get conf: []
+UpdateConf []
+Update get conf: []
+UpdateConf [127.0.0.2:80]
+WeightRoundRobinBalance get conf: [127.0.0.2:80,70]
